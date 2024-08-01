@@ -34,7 +34,7 @@ export default function App() {
             <span className='line-through text-aurometal-saurus font-medium font-montserrat text-[13px]'>$169.99</span>
           </div>
 
-          <button className='flex flex-row flex-nowrap justify-center items-center min-h-[48px] bg-deep-aquamarine-default rounded-xl gap-2'>
+          <button className='flex flex-row flex-nowrap justify-center items-center min-h-[48px] bg-deep-aquamarine-default hover:bg-deep-aquamarine-hover transition-colors duration-300 rounded-xl gap-2'>
             <img src={assets.icon} alt="cart icon" />
             <span className='font-montserrat font-bold text-white'>Add to cart</span>
           </button>
